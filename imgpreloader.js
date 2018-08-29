@@ -31,7 +31,7 @@ After loading preloader tag will be replaced to the picture with the attributes:
   	Object.setPrototypeOf(felement, HTMLElement);
   	
   	for(var k in attrs){
-		felement.prototype.[k]=attrs[k];}
+		felement.prototype[k]=attrs[k];}
   	for(var k in statics){
 		felement[k]=statics[k];}
   	return felement;
