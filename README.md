@@ -1,9 +1,18 @@
-## **IMG PRELOADER**
 
- 
- **to create a preloader: add the tag to the place of the picture**
+# Using
+### Use the custom elements polyfill for support in most browsers!
+
+**[custom elements v1 on *Can I use*](https://caniuse.com/#feat=custom-elementsv1)**
+![enter image description here](https://i.imgur.com/sYnOc5I.png)
+Include  [customElements.min.js](https://github.com/MiloLug/js-img-preloader/blob/master/customElements.min.js "customElements.min.js")  at the beginning of your page,  _before_ any code that manipulates the DOM (*and preloader script*):
+
+	<script src="customElements.min.js"></script>
+Include [imgpreloader.min.js](https://github.com/MiloLug/js-img-preloader/blob/master/imgpreloader.min.js "imgpreloader.min.js") :
 		
-    <f-preload-img></f-preload-img>
+	<script src="imgpreloader.min.js"></script>
+ ### to create a preloader, add the tag to the place of the picture
+
+	<f-preload-img></f-preload-img>
 
 **tag attributes:**
 	
