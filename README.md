@@ -37,3 +37,19 @@ Preloader tag will be replaced to the picture with the **attributes**:
      - load-complete="true" 	
    - else:
      - load-complete="false"
+   
+# Test
+**test site:** https://milolug.github.io/index.html
+
+If your Internet connection is too fast to notice a preloader, follow these steps:
+
+ 1. open dev panel (f12 or ctrl+shift+c)
+ ![enter image description here](https://i.imgur.com/9QAIsow.png)
+ 
+ 2. go to network panel and tick the "disable cache"
+    ![enter image description here](https://i.imgur.com/0F0Ixsy.png)
+ 
+ 3. in "online" select "slow 3G"
+ ![enter image description here](https://i.imgur.com/w2NISF9.png)
+
+4. don't close panel and reboot page
