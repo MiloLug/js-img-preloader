@@ -50,6 +50,7 @@ If your Internet connection is too fast to notice a preloader, follow these step
     ![enter image description here](https://i.imgur.com/0F0Ixsy.png)
  
  3. in "online" select "slow 3G"
- ![enter image description here](https://i.imgur.com/w2NISF9.png)
+ 
+	 ![enter image description here](https://i.imgur.com/w2NISF9.png)
 
 4. don't close panel and reboot page
