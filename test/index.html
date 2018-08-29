@@ -3,18 +3,15 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="main.css">
- 	<script src="js/customElements.js" type="text/javascript"></script>
+ 	<script src="../customElements.js" type="text/javascript"></script>
   <script src="js/createCE.js" type="text/javascript"></script>
-	<script src="js/images.js" type="text/javascript"></script>
+	<script src="../imgpreloader.min.js" type="text/javascript"></script>
 </head>
 <body>
-	<header>
-		<div class="avatar fl"><a href="javascript:window.location.reload()"></a><f-preload-img class="avatar" queue="1" src="style/ava.png"></f-preload-img></div>
-		<div class="name">Michael Ghonchar</div>
-		<div class="buttons">
-			<a class="btn round50 b-btn">Contacts</a>
-			<a class="btn round50 b-btn">Information</a>
-		</div>
-	</header>
-	
+	<f-img-preload queue=1 src="http://qnimate.com/wp-content/uploads/2014/03/images2.jpg"></f-img-preload>
+	<f-img-preload src="https://scarletknights.com/common/controls/image_handler.aspx?thumb_id=0&image_path=/images/2017/6/29/IMGLOGO_colourl_1000x600.jpg"></f-img-preload>
+	<f-img-preload queue=2 src="http://www.apicius.es/wp-content/uploads/2012/07/IMG-20120714-009211.jpg"></f-img-preload>
+	<f-img-preload queue=3 src="https://pp.userapi.com/c629327/v629327473/db66/r051joYFRX0.jpg?ava=1"></f-img-preload>
+	<f-img-preload queue=4 src="http://newstldr-7af9.kxcdn.com/newsroom.imgs/579d3ad945384954a0e5e2c8bf1e8575.jpg"></f-img-preload>
+</body>
 </html> 
