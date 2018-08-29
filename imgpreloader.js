@@ -30,8 +30,10 @@ After loading preloader tag will be replaced to the picture with the attributes:
   	Object.setPrototypeOf(felement.prototype, HTMLElement.prototype);
   	Object.setPrototypeOf(felement, HTMLElement);
   	
-  	felement.prototype.Ainit(attrs);
-  	felement.Ainit(statics);
+  	for(var k in attrs){
+		felement.prototype.[k]=attrs[k];}
+  	for(var k in statics){
+		felement[k]=statics[k];}
   	return felement;
   },
 	qes = [],//queues
