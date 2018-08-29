@@ -33,7 +33,7 @@ After loading preloader tag will be replaced to the picture with the attributes:
   	felement.prototype.Ainit(attrs);
   	felement.Ainit(statics);
   	return felement;
-  }
+  },
 	qes = [],//queues
 	docOnload = false,
 	min,
